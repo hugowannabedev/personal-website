@@ -1,0 +1,45 @@
+/* body {
+    height: 5000px;
+} */
+
+.bg-image {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        min-height: 30vh;
+    }
+}
+
+.about-image {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam:wght@300&family=Poppins:wght@500&display=swap');
+ 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+}
